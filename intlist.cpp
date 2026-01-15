@@ -94,7 +94,7 @@ double IntList::average() const {
         numItems++;
         current = current->next;
     }
-    return sum/numItems; // REPLACE THIS NON-SOLUTION
+    return double(sum)/numItems; // REPLACE THIS NON-SOLUTION
 }
 
 // inserts value as new node at beginning of list
